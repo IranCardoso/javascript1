@@ -1,0 +1,109 @@
+<html>
+    <head>  
+        <title>Projeto</title>
+        <link href="estilo.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+    <div id="container">
+        <div id="logo">
+            <img src="logo.png">
+        </div>
+        <div id="menu">
+            <a href="">Home |</a>
+            <a href="">Sobre |</a>
+            <a href="">Fotos |</a>
+            <a href="">Contato |</a>
+
+        </div>
+        <div id="menu"></div>
+    </div>
+
+    <div id="banner"></div>
+
+    <div id="propaganda"></div>
+
+    <div id="conteudo">
+
+    <div id="esquerda"></div>
+    <div id="direita"></div>
+</div>
+
+
+</body>
+</html>
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#container{
+    width: 960px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.808);
+    margin: auto;
+}
+#logo{
+    width: 200px;
+    height: 150px;
+    background-color: aliceblue;
+    float: left;
+}
+#logo img{
+    margin: 10px 10px 10px 10px;
+    width: 150px;
+}
+#menu{
+    width: 760px;
+    height: 80px;
+    float: right;
+    text-align: center;
+    word-spacing: 20px;
+    color: black;
+    margin-top: 50px;
+}
+#menu a{
+text-decoration: none;
+}
+#menu a:hover{
+    color: rgb(139, 35, 35);
+}
+#banner{
+    width: 960px;
+    height: 400px;
+    margin: auto;
+    background-color: aquamarine;
+}
+#propaganda{
+    height: 960px;
+    height: 200px;
+    margin: auto;
+    background-color: chocolate;
+}
+#conteudo{
+    width: 960px;
+    height: 600px;
+    margin: auto;
+    background-color: rgb(224, 13, 206);
+}
+#esquerda{
+    width: 400px;
+    height: 600px;
+    float: left;
+    background-color: rgb(41, 22, 39);
+}
+#direita{
+    width: 400px;
+    height: 600px;
+    float: right;
+    background-color: rgb(0, 0, 0);
+}
+#rodape{
+    width: 400px;
+    height: 600px;
+    float: right;
+    background-color: rgb(0, 0, 0);
+}
